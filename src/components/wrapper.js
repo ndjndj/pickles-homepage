@@ -9,7 +9,7 @@ export default function Wrapper(props) {
         <div className="wrapper" id={id} >
             <h2><span>{title}</span></h2>
 
-            <React.Fragment>{child}</React.Fragment>
+            <div className="content">{child}</div>
         </div>
     );
 }

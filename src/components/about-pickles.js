@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/about-pickles.css';
 import Button from '../components/button';
+import LP_1 from '../img/PicklesLP_1.png';
 
 export default function AboutPickles(props) {
     const installLink = "https://chrome.google.com/webstore/detail/pickles/cbbhnfkdiimgbfbmaaamdcdmjmgbgpoa";
     return (
         <React.Fragment>
             <div class="img">
-                    <img src="PicklesLP_1.png" alt="" />
+                    <img src={LP_1} alt="about-pickles" />
             </div>
 
             <div class="description">

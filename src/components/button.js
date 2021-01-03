@@ -6,7 +6,7 @@ export default function Button(props) {
     const link = props.link;
     const sentence = props.sentence;
     return (
-        <Link to={link}>
+        <Link to={link} className="btn">
             {sentence}
         </Link>
     );

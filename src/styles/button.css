@@ -9,6 +9,8 @@
     border: 1px solid #000000;
     padding: 1% 0%;
     margin: 2% 40% 2% 40%;
+    text-decoration: none;
+    color: #000000;
 }
 
 .btn:hover {

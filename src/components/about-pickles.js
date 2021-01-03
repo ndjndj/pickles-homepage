@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styles/about-pickles.css';
+import Button from '../components/button';
 
 export default function AboutPickles(props) {
+    const installLink = "https://chrome.google.com/webstore/detail/pickles/cbbhnfkdiimgbfbmaaamdcdmjmgbgpoa";
     return (
         <React.Fragment>
             <div class="img">
@@ -17,7 +19,7 @@ export default function AboutPickles(props) {
                     <p>You can install it from the link below(it will be redirected to Google web store).</p>
             </div>
 
-            <a href="https://chrome.google.com/webstore/detail/pickles/cbbhnfkdiimgbfbmaaamdcdmjmgbgpoa" target="_blank" rel="noopener noreferrer" class="btn">Install now</a>
+            <Button link={installLink} sentence={"Install now"} />
         </React.Fragment>
     );
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import AboutPickles from '../components/about-pickles';
 import ReleaseNote from '../components/release-note';
+import HowToInstall from '../components/how-to-install';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <AboutPickles />
       <ReleaseNote />
+      <HowToInstall />
     </React.Fragment>
   );
 }

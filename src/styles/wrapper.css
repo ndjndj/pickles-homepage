@@ -19,3 +19,12 @@
 .wrapper h2 span {
     border-bottom: solid 1px #CCCCCC;
 }
+
+.content {
+    margin: 1% 5%;
+}
+
+.content a {
+    text-decoration: none;
+    color: #000000;
+}

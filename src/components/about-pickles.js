@@ -4,10 +4,10 @@ import Button from '../components/button';
 import Wrapper from '../components/wrapper';
 import LP_1 from '../img/PicklesLP_1.png';
 
-export default function AboutPickles(props) {
+export default function AboutPickles() {
     const installLink = "https://chrome.google.com/webstore/detail/pickles/cbbhnfkdiimgbfbmaaamdcdmjmgbgpoa";
     return (
-        <Wrapper WrapperId="about-pickles" title="About Pickles" >
+        <Wrapper wrapperId="about-pickles" title="About Pickles" >
             <div class="img">
                     <img src={LP_1} alt="about-pickles" />
             </div>

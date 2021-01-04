@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/wrapper.css';
 
 export default function Wrapper(props) {
-    const id = props.WrapperId;
+    const id = props.wrapperId;
     const title = props.title;
     const children = props.children;
     return (

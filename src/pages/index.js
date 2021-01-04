@@ -18,6 +18,7 @@ export default function Home() {
         <ReleaseNote />
         <HowToInstall />
         <HowToUnInstall />
+        
         <PrivacyAssurance />
         <Disclaimer />
       </div>

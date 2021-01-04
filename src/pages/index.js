@@ -12,13 +12,15 @@ export default function Home() {
   return (
     <React.Fragment>
       <Header />
-      <PageIndex />
-      <AboutPickles />
-      <ReleaseNote />
-      <HowToInstall />
-      <HowToUnInstall />
-      <PrivacyAssurance />
-      <Disclaimer />
+      <div id="contents">
+        <PageIndex />
+        <AboutPickles />
+        <ReleaseNote />
+        <HowToInstall />
+        <HowToUnInstall />
+        <PrivacyAssurance />
+        <Disclaimer />
+      </div>
     </React.Fragment>
   );
 }

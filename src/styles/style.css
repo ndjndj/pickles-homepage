@@ -12,3 +12,9 @@ body {
     Meiryo,
     sans-serif;
 }
+
+#contents {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -7,6 +7,7 @@ import HowToInstall from '../components/how-to-install';
 import HowToUnInstall from '../components/how-to-uninstall';
 import PrivacyAssurance from '../components/privacy-assurance';
 import Disclaimer from '../components/disclaimer';
+import HowToUse from '../components/how-to-use';
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         <ReleaseNote />
         <HowToInstall />
         <HowToUnInstall />
-        
+        <HowToUse />
         <PrivacyAssurance />
         <Disclaimer />
       </div>

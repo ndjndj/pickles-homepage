@@ -6,6 +6,7 @@ import ReleaseNote from '../components/release-note';
 import HowToInstall from '../components/how-to-install';
 import HowToUnInstall from '../components/how-to-uninstall';
 import PrivacyAssurance from '../components/privacy-assurance';
+import Disclaimer from '../components/disclaimer';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <HowToInstall />
       <HowToUnInstall />
       <PrivacyAssurance />
+      <Disclaimer />
     </React.Fragment>
   );
 }

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Header />
-      <Wrapper WrapperId={"about-pickles"} title={"About Pickles"} child={<AboutPickles />}/>
+      <AboutPickles />
     </React.Fragment>
   );
 }

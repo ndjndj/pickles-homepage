@@ -4,12 +4,12 @@ import '../styles/wrapper.css';
 export default function Wrapper(props) {
     const id = props.WrapperId;
     const title = props.title;
-    const child = props.child;
+    const children = props.children;
     return (
         <div className="wrapper" id={id} >
             <h2><span>{title}</span></h2>
 
-            <div className="content">{child}</div>
+            <div className="content">{children}</div>
         </div>
     );
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/about-pickles.css';
 import Button from '../components/button';
+import Wrapper from '../components/wrapper';
 import LP_1 from '../img/PicklesLP_1.png';
 
 export default function AboutPickles(props) {
     const installLink = "https://chrome.google.com/webstore/detail/pickles/cbbhnfkdiimgbfbmaaamdcdmjmgbgpoa";
     return (
-        <React.Fragment>
+        <Wrapper WrapperId="about-pickles" title="About Pickles" >
             <div class="img">
                     <img src={LP_1} alt="about-pickles" />
             </div>
@@ -21,6 +22,6 @@ export default function AboutPickles(props) {
             </div>
 
             <Button link={installLink} sentence={"Install now"} />
-        </React.Fragment>
+        </Wrapper>
     );
 }

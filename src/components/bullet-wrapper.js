@@ -2,15 +2,19 @@ import React from 'react';
 import '../styles/bullet-wrapper.css';
 
 export default function BulletWrapper(props) {
-    const Bullets = props.bullets;
+    const bullets = props.bullets;
     const title = props.title;
     const direction = props.direction;
     const typeOfNum = props.typeOfNum;
 
     function olul(isNum, callback){
-        if (isNum) {
-            <ol>{callback()}</ol>
-        }
+        return isNum ? <ol>{callback()}</ol> : <ul>{callback()}</ul>
+    }
+
+    function writeBullets(bullets) {
+        bullets.map(
+            
+        );
     }
 
     return (
@@ -18,7 +22,7 @@ export default function BulletWrapper(props) {
             <h3><span>{title}</span></h3>
 
             {
-                if (typeOfNum) <ol>;
+
 
 
             }

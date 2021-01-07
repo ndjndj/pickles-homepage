@@ -5,7 +5,7 @@ export default function BulletWrapper(props) {
     const bullets = props.bullets;
     const title = props.title;
     const direction = props.direction;
-    const typeOfNum = props.typeOfNum;
+    const isNum = props.typeOfNum;
 
     function olul(isNum, bullets){
         return isNum ? <ol>{writeBullets(bullets)}</ol> : <ul>{writeBullets(bullets)}</ul>
@@ -21,7 +21,7 @@ export default function BulletWrapper(props) {
         <div className={direction + " description"}>
             <h3><span>{title}</span></h3>
 
-            {olul(typeOfNum, bullets)}
+            {olul(isNum, bullets)}
         </div>
     );
 }

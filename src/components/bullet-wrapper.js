@@ -13,7 +13,7 @@ export default function BulletWrapper(props) {
 
     function writeBullets(bullets) {
         bullets.map(
-            bullet => <li>{bullet[i]}</li>
+            (bullet, i) => <li>{bullet[i]}</li>
         );
     }
 

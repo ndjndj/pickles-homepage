@@ -1,9 +1,21 @@
 import React from 'react';
 import '../styles/how-to-install.css';
 import Wrapper from '../components/wrapper';
+import BulletWrapper from '../components/bullet-wrapper';
 import LP_2 from '../img/PicklesLP_2.png';
 
 export default function HowToInstall() {
+    const bullets = [
+        'Click to Pickles icon.',
+        'Click to SAVE button.',
+        'Please enter Pickles name.',
+        'Click to SAVE button.',
+        'Pickle will be stored in your browser.'
+    ];
+    const title = 'How to Pickle';
+    const direction = 'right';
+    const isNum = true;
+
     return (
         <Wrapper wrapperId="how-to-install" title="How to install">
             <div class="flex-wrapper">
@@ -11,18 +23,12 @@ export default function HowToInstall() {
                     <img src={LP_2} alt="" />
                 </div>
 
-                <div class="right description">
-                    <div>
-                        <h3><span>How to Pickle.</span></h3>
-                            <ol>
-                                <li>Click to Pickles icon.</li>
-                                <li>Click to SAVE button.</li>
-                                <li>Please enter Pickles name.</li>
-                                <li>Click to SAVE button.</li>
-                                <li>Pickle will be stored in your browser.</li>
-                            </ol>
-                    </div>
-                </div>
+                <BulletWrapper
+                    bullets = {bullets}
+                    title = {title}
+                    direction = {direction}
+                    isNum = {isNum}
+                />
             </div>
         </Wrapper>
     );

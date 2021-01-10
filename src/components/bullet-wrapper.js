@@ -5,8 +5,7 @@ export default function BulletWrapper(props) {
     const bullets = props.bullets;
     const title = props.title;
     const direction = props.direction;
-    const isNum = props.typeOfNum;
-
+    const isNum = props.isNum;
     function olul(isNum, bullets){
         return isNum ? <ol>{bullets}</ol> : <ul>{bullets}</ul>
     }

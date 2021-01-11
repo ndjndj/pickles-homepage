@@ -18,7 +18,7 @@ export default function PageIndex() {
         let jsx = [];
 
         for (let key in links) {
-            jsx.push(<li><Link  key={key} to={key}>{links[key]}</Link></li>);
+            jsx.push(<li key={key}><Link to={key}>{links[key]}</Link></li>);
         }
 
         return jsx;

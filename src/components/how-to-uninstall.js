@@ -6,8 +6,8 @@ import LP_2 from '../img/PicklesLP_2.png';
 export default function HowToUnInstall() {
     return (
         <Wrapper wrapperId="how-to-uninstall" title="How to uninstall">
-            <div class="flex-wrapper">
-                <div class="left description">
+            <div className="flex-wrapper">
+                <div className="left description">
                     <div>
                         <h3><span>How to Pickle.</span></h3>
                             <ol>

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/how-to-use.css';
 import Wrapper from '../components/wrapper';
+import BulletWrapper from '../components/bullet-wrapper';
 import LP_2 from '../img/PicklesLP_2.png';
 
 export default function HowToUse() {

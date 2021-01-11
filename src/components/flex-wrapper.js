@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/two-columns.css';
+import '../styles/flex-wrapper.css';
 
 export default function TwoColumns(props) {
     const leftComponentType = props.leftComponentType;
     const rightComponentType = props.rightComponentType;
     return (
-        <div className="two-columns">
+        <div className="flex-wrapper">
             <div className={leftComponentType + " left "}>
 
 

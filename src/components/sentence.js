@@ -7,7 +7,7 @@ export default function Sentence(props) {
     function writeSentences(sentences) {
         let jsx = [];
         for (var i=0; i < sentences.length; i++) {
-            jsx.push(<p>{sentences[i]}</p>);
+            jsx.push(<p key={i}>{sentences[i]}</p>);
         }
         return jsx;
     }

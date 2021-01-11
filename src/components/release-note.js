@@ -5,7 +5,7 @@ import Wrapper from '../components/wrapper';
 export default function ReleaseNote() {
     return (
         <Wrapper wrapperId="release-note" title="Release Note">
-            <div class="scroll-box">
+            <div className="scroll-box">
                 <dl>
                     <dt>December 28th, 2020</dt>
                     <dd>Created this page.</dd>

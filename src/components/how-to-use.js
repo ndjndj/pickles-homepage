@@ -6,12 +6,12 @@ import LP_2 from '../img/PicklesLP_2.png';
 export default function HowToUse() {
     return (
         <Wrapper wrapperId="how-to-use" title="How to use">
-            <div class="flex-wrapper">
-                <div class="left img">
+            <div className="flex-wrapper">
+                <div className="left img">
                     <img src={LP_2} alt="" />
                 </div>
 
-                <div class="right description">
+                <div className="right description">
                     <div>
                         <h3><span>How to Pickle.</span></h3>
                         <ol>
@@ -24,8 +24,8 @@ export default function HowToUse() {
                     </div>
                 </div>
             </div>
-            <div class="flex-wrapper">
-                    <div class="left description">
+            <div className="flex-wrapper">
+                    <div className="left description">
                         <div>
                             <h3><span>How to check Pickle.</span></h3>
                             <ol>
@@ -38,17 +38,17 @@ export default function HowToUse() {
                         </div>
                     </div>
 
-                    <div class="right img">
+                    <div className="right img">
                         <img src={LP_2} alt="" />
                     </div>
             </div>
 
-            <div class="flex-wrapper">
-                <div class="left img">
+            <div className="flex-wrapper">
+                <div className="left img">
                     <img src={LP_2} alt="" />
                 </div>
 
-                <div class="right description">
+                <div className="right description">
                     <div>
                         <h3><span>What else Pickles can do?</span></h3>
                             <ol>

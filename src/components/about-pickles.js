@@ -8,11 +8,11 @@ export default function AboutPickles() {
     const installLink = "https://chrome.google.com/webstore/detail/pickles/cbbhnfkdiimgbfbmaaamdcdmjmgbgpoa";
     return (
         <Wrapper wrapperId="about-pickles" title="About Pickles" >
-            <div class="img">
+            <div className="img">
                     <img src={LP_1} alt="about-pickles" />
             </div>
 
-            <div class="description">
+            <div className="description">
                     <p>Excessively open tabs consume a lot of memory.</p>
                     <p>Use 'Pickles' to pickle that excessively opened tabs.</p>
 

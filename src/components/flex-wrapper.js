@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/flex-wrapper.css';
 
-export default function TwoColumns(props) {
+export default function FlexWrapper(props) {
     const leftComponentType = props.leftComponentType;
     const rightComponentType = props.rightComponentType;
     return (

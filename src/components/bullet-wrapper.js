@@ -23,7 +23,7 @@ export default function BulletWrapper(props) {
         <div className={direction + " description"}>
             <h3><span>{title}</span></h3>
 
-            {olul(isNum, writeBullets(bullets))};
+            {olul(isNum, writeBullets(bullets))}
         </div>
     );
 }

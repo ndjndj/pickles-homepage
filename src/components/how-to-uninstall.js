@@ -20,7 +20,7 @@ export default function HowToUnInstall() {
                     </div>
                 </div>
 
-                <div class="right img">
+                <div className="right img">
                     <img src={LP_2} alt="" />
                 </div>
             </div>

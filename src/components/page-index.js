@@ -13,13 +13,21 @@ export default function PageIndex() {
         '#privacy-assurance': 'Privacy assurance',
         '#disclaimer': 'Disclaimer'
     };
-    
+
+    function createIndex(links) {
+        let jsx = [];
+
+        for (let key in links) {
+            jsx.push(<li><Link  key={key} to={key}>{links[key]}</Link></li>);
+        }
+
+        return jsx;
+    }
+
     return (
         <Wrapper wrapperId="page-index" title="Index">
             <ol>
-                {
-                    links.map((link) => {})
-                }
+                {createIndex(links)}
             </ol>
         </Wrapper>
     );

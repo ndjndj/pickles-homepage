@@ -6,7 +6,7 @@ export default function BulletWrapper(props) {
     const title = props.title;
     const direction = props.direction;
     const isNum = props.isNum;
-    
+
     function olul(isNum, bullets){
         return isNum ? <ol>{bullets}</ol> : <ul>{bullets}</ul>
     }
@@ -14,7 +14,7 @@ export default function BulletWrapper(props) {
     function writeBullets(bullets) {
         let jsx = [];
         for (var i=0; i<bullets.length; i++) {
-            jsx.push(<li>{bullets[i]}</li>);
+            jsx.push(<li key={i}>{bullets[i]}</li>);
         }
         return jsx;
     }

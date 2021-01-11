@@ -18,8 +18,8 @@ export default function HowToInstall() {
 
     return (
         <Wrapper wrapperId="how-to-install" title="How to install">
-            <div class="flex-wrapper">
-                <div class="left img">
+            <div className="flex-wrapper">
+                <div className="left img">
                     <img src={LP_2} alt="" />
                 </div>
 

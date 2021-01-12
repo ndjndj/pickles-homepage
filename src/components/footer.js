@@ -3,9 +3,11 @@ import React from 'react';
 import '../styles/footer.css';
 
 export default function Footer() {
-    <footer>
-        <p>
-            Pickles
-        </p>
-    </footer>
+    return (
+        <footer>
+            <p>
+                Pickles
+            </p>
+        </footer>
+    );
 }

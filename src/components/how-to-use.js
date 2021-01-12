@@ -34,7 +34,7 @@ export default function HowToUse() {
                     />
                 }
             />
-            
+
             <FlexWrapper
                 leftComponent = {
                     <BulletWrapper
@@ -69,7 +69,7 @@ export default function HowToUse() {
                     />
                 }
 
-                righttComponent = {
+                rightComponent = {
                     <BulletWrapper
                         bullets = {[
                             'Click to DL CSV button to download Pickle with CSV format.',

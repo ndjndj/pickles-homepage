@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/how-to-install.css';
 import Wrapper from '../components/wrapper';
 import BulletWrapper from '../components/bullet-wrapper';
+import ImgWrapper from '../components/img-wrapper';
+import FlexWrapper from '../components/flex-wrapper';
 import LP_2 from '../img/PicklesLP_2.png';
 
 export default function HowToInstall() {
@@ -18,18 +20,24 @@ export default function HowToInstall() {
 
     return (
         <Wrapper wrapperId="how-to-install" title="How to install">
-            <div className="flex-wrapper">
-                <div className="left img">
-                    <img src={LP_2} alt="" />
-                </div>
+            <FlexWrapper
+                leftComponent = {
+                    <ImgWrapper
+                        imgSrc = {LP_2}
+                        imgAlt = {''}
+                        direction = {'left'}
+                    />
+                }
 
-                <BulletWrapper
-                    bullets = {bullets}
-                    title = {title}
-                    direction = {direction}
-                    isNum = {isNum}
-                />
-            </div>
+                rightComponent = {
+                    <BulletWrapper
+                        bullets = {bullets}
+                        title = {title}
+                        direction = {direction}
+                        isNum = {isNum}
+                    />
+                }
+            />
         </Wrapper>
     );
 }

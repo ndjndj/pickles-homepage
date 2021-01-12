@@ -15,7 +15,19 @@ export default function HowToUse() {
                     <ImgWrapper
                         imgSrc = {LP_2}
                         imgAlt = {''}
-                        
+                    />
+                }
+
+                rightComponent = {
+                    <BulletWrapper
+                        bullets = {[
+                            'Click to Pickles icon.',
+                            'Click to SAVE button.',
+                            'Please enter Pickles name.',
+                            'Click to SAVE button.',
+                            'Pickle will be stored in your browser.'
+                        ]}
+                        title = {'How to Pickle.'}
                     />
                 }
 
@@ -30,13 +42,13 @@ export default function HowToUse() {
 
                 <div className="right description">
                     <div>
-                        <h3><span>How to Pickle.</span></h3>
+                        <h3><span></span></h3>
                         <ol>
-                            <li>Click to Pickles icon.</li>
-                            <li>Click to SAVE button.</li>
-                            <li>Please enter Pickles name.</li>
-                            <li>Click to SAVE button.</li>
-                            <li>Pickle will be stored in your browser.</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                         </ol>
                     </div>
                 </div>

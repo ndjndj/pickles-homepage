@@ -2,12 +2,18 @@ import React from 'react';
 import '../styles/how-to-use.css';
 import Wrapper from '../components/wrapper';
 import BulletWrapper from '../components/bullet-wrapper';
+import ImgWrapper from '../components/img-wrapper';
+import FlexWrapper from '../components/flex-wrapper';
 import LP_2 from '../img/PicklesLP_2.png';
+
 
 export default function HowToUse() {
     return (
         <Wrapper wrapperId="how-to-use" title="How to use">
             <div className="flex-wrapper">
+
+
+
                 <div className="left img">
                     <img src={LP_2} alt="" />
                 </div>

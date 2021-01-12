@@ -2,14 +2,17 @@ import React from 'react';
 import '../styles/flex-wrapper.css';
 
 export default function FlexWrapper(props) {
-    const leftComponentType = props.leftComponentType;
-    const rightComponentType = props.rightComponentType;
+    const leftComponent = props.leftComponent;
+    const rightComponent = props.rightComponent;
     return (
         <div className="flex-wrapper">
-            <div className={leftComponentType + " left "}>
+            <React.Fragment className='left'>
+                {leftComponent}
+            </React.Fragment>
 
-
-            </div>
+            <React.Fragment className='right'>
+                {rightComponent}
+            </React.Fragment>
         </div>
     );
 }

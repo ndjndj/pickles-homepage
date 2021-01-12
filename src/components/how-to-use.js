@@ -28,6 +28,7 @@ export default function HowToUse() {
                             'Pickle will be stored in your browser.'
                         ]}
                         title = {'How to Pickle.'}
+                        
                         isNum = {true}
                     />
                 }

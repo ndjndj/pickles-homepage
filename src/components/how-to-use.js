@@ -34,27 +34,32 @@ export default function HowToUse() {
                     />
                 }
             />
-            <div className="flex-wrapper">
-            </div>
-            <div className="flex-wrapper">
-                    <div className="left description">
-                        <div>
-                            <h3><span>How to check Pickle.</span></h3>
-                            <ol>
-                                <li>Click to Pickles icon.</li>
-                                <li>Click to tabs button.</li>
-                                <li>Click to Pickle to open tabs.</li>
-                                <li>Click to INFO button to check the Pickle.</li>
-                                <li>Click to DEL button to delete the Pickle.</li>
-                            </ol>
-                        </div>
-                    </div>
+            <FlexWrapper
+                leftComponent = {
+                    <BulletWrapper
+                        bullets = {[
+                            'Click to Pickles icon.',
+                            'Click to tabs button.',
+                            'Click to Pickle to open tabs.',
+                            'Click to INFO button to check the Pickle.',
+                            'Click to DEL button to delete the Pickle.'
+                        ]}
+                        title = {'How to check Pickle.'}
+                        direction = {'left'}
+                        isNum = {true}
+                    />
+                }
 
-                    <div className="right img">
-                        <img src={LP_2} alt="" />
-                    </div>
-            </div>
+                rightComponent = {
+                    <ImgWrapper
+                        imgSrc = {LP_2}
+                        imgAlt = {''}
+                        direction = {'right'}
+                    />
+                }
+            />
 
+            
             <div className="flex-wrapper">
                 <div className="left img">
                     <img src={LP_2} alt="" />

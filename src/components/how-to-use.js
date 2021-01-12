@@ -28,30 +28,11 @@ export default function HowToUse() {
                             'Pickle will be stored in your browser.'
                         ]}
                         title = {'How to Pickle.'}
+                        isNum = {true}
                     />
                 }
-
             />
             <div className="flex-wrapper">
-
-
-
-                <div className="left img">
-                    <img src={LP_2} alt="" />
-                </div>
-
-                <div className="right description">
-                    <div>
-                        <h3><span></span></h3>
-                        <ol>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ol>
-                    </div>
-                </div>
             </div>
             <div className="flex-wrapper">
                     <div className="left description">

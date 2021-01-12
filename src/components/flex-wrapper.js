@@ -6,11 +6,11 @@ export default function FlexWrapper(props) {
     const rightComponent = props.rightComponent;
     return (
         <div className="flex-wrapper">
-            <React.Fragment className='left'>
+            <React.Fragment>
                 {leftComponent}
             </React.Fragment>
 
-            <React.Fragment className='right'>
+            <React.Fragment>
                 {rightComponent}
             </React.Fragment>
         </div>

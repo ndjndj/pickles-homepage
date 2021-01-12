@@ -34,6 +34,7 @@ export default function HowToUse() {
                     />
                 }
             />
+            
             <FlexWrapper
                 leftComponent = {
                     <BulletWrapper
@@ -59,23 +60,28 @@ export default function HowToUse() {
                 }
             />
 
-            
-            <div className="flex-wrapper">
-                <div className="left img">
-                    <img src={LP_2} alt="" />
-                </div>
+            <FlexWrapper
+                leftComponent = {
+                    <ImgWrapper
+                        imgSrc = {LP_2}
+                        imgAlt = {''}
+                        direction = {'left'}
+                    />
+                }
 
-                <div className="right description">
-                    <div>
-                        <h3><span>What else Pickles can do?</span></h3>
-                            <ol>
-                                <li>Click to DL CSV button to download Pickle with CSV format.</li>
-                                <li>Click to DL md button to download Pickle with markdown format.</li>
-                                <li>Click to output md button to copy Pickle with markdown format.</li>
-                            </ol>
-                    </div>
-                </div>
-            </div>
+                righttComponent = {
+                    <BulletWrapper
+                        bullets = {[
+                            'Click to DL CSV button to download Pickle with CSV format.',
+                            'Click to DL md button to download Pickle with markdown format.',
+                            'Click to output md button to copy Pickle with markdown format.'
+                        ]}
+                        title = {'What else Pickles can do?'}
+                        direction = {'right'}
+                        isNum = {true}
+                    />
+                }
+            />
         </Wrapper>
     );
 }

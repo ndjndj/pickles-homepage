@@ -15,6 +15,7 @@ export default function HowToUse() {
                     <ImgWrapper
                         imgSrc = {LP_2}
                         imgAlt = {''}
+                        direction = {'left'}
                     />
                 }
 
@@ -28,7 +29,7 @@ export default function HowToUse() {
                             'Pickle will be stored in your browser.'
                         ]}
                         title = {'How to Pickle.'}
-                        
+                        direction = {'right'}
                         isNum = {true}
                     />
                 }

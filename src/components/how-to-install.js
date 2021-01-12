@@ -33,7 +33,7 @@ export default function HowToInstall() {
                     <BulletWrapper
                         bullets = {bullets}
                         title = {title}
-                        direction = {direction}
+                        direction = {'right'}
                         isNum = {isNum}
                     />
                 }

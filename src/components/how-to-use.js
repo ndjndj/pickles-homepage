@@ -10,6 +10,16 @@ import LP_2 from '../img/PicklesLP_2.png';
 export default function HowToUse() {
     return (
         <Wrapper wrapperId="how-to-use" title="How to use">
+            <FlexWrapper
+                leftComponent = {
+                    <ImgWrapper
+                        imgSrc = {LP_2}
+                        imgAlt = {''}
+                        
+                    />
+                }
+
+            />
             <div className="flex-wrapper">
 
 
